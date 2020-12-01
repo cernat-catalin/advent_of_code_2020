@@ -40,3 +40,5 @@
               \ _.-'
 
 ```
+
+How to run: `kotlinc -script /dayn/main.kts`
