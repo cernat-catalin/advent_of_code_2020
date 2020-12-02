@@ -13,6 +13,7 @@ val result_one = entries.cartesianProduct(entries)
         .first()
 println("Part one: " + result_one)
 
+// ----- Part Two -----
 
 val result_two = entries
         .map { Pair(it, entries.cartesianProduct(entries).filter { (x, y) -> it + x + y == 2020 }.firstOrNull()) }

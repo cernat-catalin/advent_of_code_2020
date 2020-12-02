@@ -41,4 +41,6 @@
 
 ```
 
-How to run: `kotlinc -script /dayn/main.kts`
+How to run:
+* `cd` into day specific folder
+* `kotlinc -script main.kts`
