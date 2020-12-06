@@ -1,11 +1,5 @@
 import java.io.File
 
-println("60cm".split("cm|in".toRegex())[0])
-println("111in".split("cm|in".toRegex())[0])
-println("#aad12".matches("#[a-f0-9]{5}".toRegex()))
-println("000034".toIntOrNull())
-
-
 val content = File("input").readText()
 val passports = content.split("\n\n")
 
