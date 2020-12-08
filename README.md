@@ -41,6 +41,4 @@
 
 ```
 
-How to run:
-* `cd` into day specific folder
-* `kotlinc -script main.kts`
+The first 7 days use Kotlin, the remaining use Java 14 (experimental features enables).
